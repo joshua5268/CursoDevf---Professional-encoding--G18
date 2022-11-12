@@ -1,0 +1,69 @@
+.padre{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.izquierda{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: blue;
+}
+
+.derecha{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: blue;
+
+}
+
+.arriba{
+    width: 90%;
+    height: 40%;
+    background: white;
+}
+
+.abajo{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    background: white;
+}
+
+.arriba2{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+    background: white;
+}
+
+.abajo2  {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background: white;
+}
+
+
+.rojo{
+    width: 90%;
+    height: 90%;
+    background: red;
+}
+
+.rojo2{
+    width: 95%;
+    height: 90%;
+    background: red;
+}

@@ -1,0 +1,15 @@
+ls - ver archivos en carpeta actual
+pwd - ver en donde estoy
+cd - cambiar de carpeta
+mkdir - crear carpeta
+code . - abrir editor de codigo
+git status -  ver estado de archivos
+git log - ver historial
+git log --oneline
+git restore --staged <archivo> - recuperar archivo de stagged
+git restore <archivo> - recuperar archivo eliminado
+git mv - renombrar archivo
+git branch - ver branches
+git branch <archivo> - crear branch
+git branch checkout <archivo> - cambiar de branch
+git branch -d <archivo> - eliminar rama

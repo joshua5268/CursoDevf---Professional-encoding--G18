@@ -1,0 +1,46 @@
+@import "variables";
+@import "node_modules/bulma/bulma";
+$micolor:#765444;
+$fontsize:40px;
+
+h1{
+    color: $micolor;
+    font-size: $fontsize;
+}
+
+
+#section{
+    h1{
+        &.titulo{
+            font-size:30px;
+        }
+    }
+
+    p{
+        color: red;
+
+        #otroelemento{
+            color: green;
+        }
+    }
+
+}
+
+
+
+/*CSS Clásico
+body{
+    background-color: $micolor;
+    font-family: $fuente;
+}
+
+h1{
+    color:$letra;
+    border: $borde;
+}
+
+p{
+    color: $letra;
+}*/
+
+

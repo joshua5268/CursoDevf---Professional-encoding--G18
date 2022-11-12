@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.App {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 97vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-login {
+  width: 400px;
+  height: 550px;
+  display: flex;
+  place-items: center;
+  text-align: center;
+  justify-content: center;
+}
